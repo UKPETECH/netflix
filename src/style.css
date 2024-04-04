@@ -1,0 +1,51 @@
+
+.banner{
+    min-height: 80vh;
+    background-image: url(./../public/barbell-1839087_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+    
+}
+.banner h4{
+    color: #fff;
+    font-size: 3rem;
+    text-shadow:  0 5px  #000;
+}
+.banner button{
+    border: none;
+    padding: 0.6rem;
+    margin: 5px;
+    box-sizing: 6px;
+    background-color: brown;
+    color: #fff;
+    opacity: 0.5;
+}
+.banner p{
+    font-size: 1.2rem;
+    word-wrap: break-word;
+    width: 23vw;
+    color: #fff;
+}
+.movieposter img{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+
+}
+.movieposter img:hover{
+    transform: scale(1.20);
+    transition: all 5s ease-in-out;
+}
+.movieposter{
+    overflow: auto;
+    gap: 4px;
+}
+::-webkit-scrollbar{
+    overflow: hidden;
+}
